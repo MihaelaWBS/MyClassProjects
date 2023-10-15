@@ -1,0 +1,202 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+p {
+	text-align: center;
+}
+
+body {
+	background-color: rgb(152, 199, 232);
+}
+
+/* Miguel */
+footer {
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: rgba(240, 255, 255, 60%);
+	margin: 50px 5px 2px 5px;
+	padding: 10px;
+}
+
+footer h3 {
+	font-size: 22px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	margin: 10px;
+}
+
+footer p {
+	font: 10px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 10px;
+}
+/* Miguel */
+
+/*Nav MIhaela */
+/* header {
+      margin: 0;
+      padding: 20px;
+      background-color: #252B48;
+      box-sizing: border-box;
+  } */
+
+nav {
+	margin: 0;
+	padding: 20px;
+	background-color: #252b48;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0px auto;
+	position: sticky;
+	/* display: inline; */
+	/* justify-content: space-between; */
+}
+
+ul {
+	/* display: inline; */
+	/* text-decoration: none; */
+	padding: 10px;
+	margin: auto;
+	justify-content: space-between;
+}
+
+li {
+	display: inline;
+	font-weight: 600;
+	padding: 20px;
+	/* justify-content: space-between; */
+	/* color: midnightblue; */
+	/* justify-content: center; */
+	/* text-decoration: none; */
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+	text-transform: uppercase;
+	/* justify-content: space-between; */
+}
+
+/* -- article title and text Darko -- */
+
+.article-title {
+	font-size: 56px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	font-style: normal;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	text-align: center;
+}
+
+.article-title:hover {
+	font-style: italic;
+}
+
+.article-text {
+	font-size: 18px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin: 10px;
+	line-height: 1.5;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #f0f0f0;
+}
+
+/* Valentijn */
+article {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	padding: 20px;
+	margin: auto;
+	max-width: 800px;
+	display: block;
+	width: 100%;
+}
+
+input,
+textarea {
+	display: block;
+	margin: auto;
+	width: 80%;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+}
+.form-wrapper {
+	display: block;
+}
+/* Anna */
+
+form {
+	display: block;
+	text-align: center;
+	margin: 20px 20%;
+	padding: 5px;
+	width: auto;
+	justify-content: center;
+	background-color: rgb(223, 156, 188);
+	border-radius: 10px;
+}
+
+fieldset {
+	border-radius: 10px;
+}
+
+input {
+	width: 400px;
+}
+
+input:hover,
+textarea:hover {
+	background-color: blueviolet;
+}
+
+legend {
+	margin: 5px;
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	padding: 5px;
+}
+
+button {
+	padding: 5px;
+	margin: 5px;
+	width: 100px;
+}
+/* Anna */
+/* Valentijn */
+
+/* Anna */
+.photo {
+	height: 100%;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.parallax-effect {
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+	border-radius: 10px;
+	background-image: url("pexels-photo-220769.jpeg");
+}
+
+.parallax-effect {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Anna */
